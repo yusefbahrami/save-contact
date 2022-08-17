@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.new-contact {
+  width: 800px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(80, 80, 80);
+  color: snow;
+}
+.new-contact * {
+  margin: 5px;
+}
+.contacts {
+  margin-top: 30px;
+  text-align: center;
+}
+.contacts ul {
+  list-style: none;
+}
+.contacts ul li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(80, 80, 80);
+  color: snow;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.contacts ul li p {
+  margin: 0 5px;
+}
+.contacts ul li button {
+  position: absolute;
+  right: 10px;
+  background-color: transparent;
+  color: snow;
+  border-color: snow;
+  border-style: solid;
+  padding: 2px;
+  cursor: pointer;
+}
+.contacts ul li button:hover {
+  background-color: snow;
+  color: rgb(80, 80, 80);
+}
